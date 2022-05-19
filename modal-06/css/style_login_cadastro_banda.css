@@ -7236,7 +7236,7 @@ a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-    background-color: #0062cc !important;
+    background-color: transparent !important;
 }
 
 .bg-secondary {
@@ -11032,28 +11032,7 @@ textarea.form-control {
     outline: none;
 }
 
-.btn.btn-primary {
-    background: #ffffff !important;
-    color: #fff !important;
-}
 
-.btn.btn-primary:hover {
-    border: 1px black solid;
-    background: transparent;
-    color: #5eb7b7;
-}
-
-.btn.btn-primary.btn-outline-primary {
-    border: 1px solid #5eb7b7;
-    background: transparent;
-    color: #5eb7b7;
-}
-
-.btn.btn-primary.btn-outline-primary:hover {
-    border: 1px solid transparent;
-    background: #5eb7b7;
-    color: #fff;
-}
 
 .ftco-section {
     background: #fff;
@@ -11230,6 +11209,3 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.4);
 }
 
-button:hover {
-    border: solid 1px black;
-}

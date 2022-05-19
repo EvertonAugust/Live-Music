@@ -17,14 +17,16 @@
     <link rel="stylesheet" href="modal-06/css/style_login_cadastro_banda.css">
     <link rel="stylesheet" href="modal-06/css/style_login_cadastro_estabelecimento.css">
     <link href="css/styles.css" rel="stylesheet">
-   
+    <link rel="stylesheet" href="modal-06/css/ionicons.min.css">
+    <link rel="stylesheet" href="modal-06/css/flaticon.css">
+
+
     <link rel="stylesheet" href="css/stylesearch.css">
     <link rel="stylesheet" href="carrossel/css/style_carrossel.css">
     <link rel="stylesheet" href="carrossel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="modal-06/css/ionicons.min.css">
-    <link rel="stylesheet" href="modal-06/css/flaticon.css">
-    
+
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
 
@@ -77,9 +79,11 @@
                     <h1 class="mx-auto my-0 text-uppercase">Nome do Site</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
                     <ul>
-                        <li><a class="btn btn-primary botao" href="#about">Login</a></li>
+                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>
                         <li><a class="btn btn-primary botao" href="#about">Cadastro</a></li>
                     </ul>
+
+
 
 
 
@@ -88,17 +92,24 @@
 
         </div>
 
-    </header>
-    <!-- Carrossel -->
-    
-
+        <!-- Modals -->
         <?php
-            include 'carrossel/carrossel.php';
+        include 'modal-06/login.php'
         ?>
+        <!-- Modals -->
+
+    </header>
+
+
+    <!-- Carrossel -->
+    <?php
+    include 'carrossel/carrossel.php';
+    ?>
+    <!-- Carrossel -->
 
 
 
-    
+
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
         <div class="container px-4 px-lg-5">
@@ -200,7 +211,7 @@
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <i style="color:black ;" class="fas fa-map-marked-alt mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4 mx-auto" />
                             <div class="small text-black-50">4923 Market Street, Orlando FL</div>
@@ -210,17 +221,17 @@
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <i style="color:black ;" class="fas fa-envelope mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                            <div class="small text-black-50"><a class="text-black-50" href="#!">hello@yourdomain.com</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <i style="color:black ;" class="fas fa-mobile-alt mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4 mx-auto" />
                             <div class="small text-black-50">+1 (555) 902-8832</div>
@@ -251,12 +262,21 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 
+
+</body>
+
+<!--scripts carrossel -->
 <script src="carrossel/js/jquery.min.js"></script>
 <script src="carrossel/js/popper.js"></script>
 <script src="carrossel/js/bootstrap.min.js"></script>
 <script src="carrossel/js/owl.carousel.min.js"></script>
 <script src="carrossel/js/main.js"></script>
+
+<!--scripts modal -->
 <script src="modal-06/js/main.js"></script>
+<script src="modal-06/js/jquery.min.js"></script>
+<script src="modal-06/js/popper.js"></script>
+<script src="modal-06/js/bootstrap.min.js"></script>
 
 
 </html>
