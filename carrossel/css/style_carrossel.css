@@ -2129,17 +2129,10 @@ pre code {
     border: 0;
 }
 
-.form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #80bdff;
-    outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
+
 
 .form-control::-webkit-input-placeholder {
-    color: #6c757d;
+    color: #ffffff;
     opacity: 1;
 }
 
@@ -2720,7 +2713,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-    color: #212529;
+    
     text-decoration: none;
 }
 
@@ -2753,7 +2746,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-    color: #fff;
+    
     background-color: rgba(156, 57, 138, 0.66);
     border:rgba(156, 57, 138, 0.66) 1px solid ;
     
@@ -2761,7 +2754,7 @@ fieldset:disabled a.btn {
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
-    color: #fff;
+    
     background-color: rgba(83, 57, 156, 0.66);
     border-color: none;
     box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
@@ -2772,7 +2765,7 @@ fieldset:disabled a.btn {
 .btn-primary:active,
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
-    color: #fff;
+    color: purple;
     background-color: #50817e;
     border-color: #4b7976;
 }
@@ -5015,7 +5008,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.856);
 }
 
 .navbar-light .navbar-nav .nav-link:hover,

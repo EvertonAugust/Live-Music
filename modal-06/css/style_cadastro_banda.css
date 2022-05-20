@@ -2132,7 +2132,7 @@ pre code {
 }
 
 .form-control:focus {
-    color: #495057;
+    
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
@@ -10998,7 +10998,7 @@ h5,
 .form-control {
     height: 52px;
     background: #fff;
-    color: #000;
+    color: white;
     font-size: 14px;
     border-radius: 5px;
     -webkit-box-shadow: none;
@@ -11124,7 +11124,7 @@ textarea.form-control {
     font-weight: bolder;
     border: none;
     border-radius: 0;
-    color: black !important;
+    
     padding: 0;
     height: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -11153,6 +11153,9 @@ textarea.form-control {
 .modal-content .btn-primary {
     background: white !important;
     height: 52px;
+    color: indigo;
+    font-weight: bold;
+    width: 100%;
 }
 
 .form-check {

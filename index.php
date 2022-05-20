@@ -14,13 +14,12 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link rel="stylesheet" href="modal-06/css/style_login_cadastro_banda.css">
-    <link rel="stylesheet" href="modal-06/css/style_login_cadastro_estabelecimento.css">
+    <link rel="stylesheet" href="modal-06/css/style_cadastro_banda.css">
+    <link rel="stylesheet" href="modal-06/css/style_cadastro_estabelecimento.css">
+    <link rel="stylesheet" href="modal-06/css/style_login.css">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="modal-06/css/ionicons.min.css">
     <link rel="stylesheet" href="modal-06/css/flaticon.css">
-
-
     <link rel="stylesheet" href="css/stylesearch.css">
     <link rel="stylesheet" href="carrossel/css/style_carrossel.css">
     <link rel="stylesheet" href="carrossel/css/owl.carousel.min.css">
