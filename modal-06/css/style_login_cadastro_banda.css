@@ -169,13 +169,13 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #000000;
     text-decoration: underline;
 }
 
@@ -2133,7 +2133,7 @@ pre code {
 
 .form-control:focus {
     color: #495057;
-    background-color: transparent;
+    background-color: #fff;
     border-color: #80bdff;
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -2142,6 +2142,7 @@ pre code {
 
 .form-control::-webkit-input-placeholder {
     color: #6c757d;
+    opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
@@ -2167,7 +2168,7 @@ pre code {
 
 select.form-control:focus::-ms-value {
     color: #495057;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #fff;
 }
 
 .form-control-file,
@@ -2769,10 +2770,9 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-    color: purple;
-    border-color: transparent;
-    background: #ffffff6b;
-    font-weight: bold;
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -2831,7 +2831,7 @@ fieldset:disabled a.btn {
 .btn-success:hover {
     color: #fff;
     background-color: #218838;
-    border-color: #1e7e34;
+    border-color: #dcdddc;
 }
 
 .btn-success:focus,
@@ -3146,7 +3146,7 @@ fieldset:disabled a.btn {
 .btn-outline-success:hover {
     color: #fff;
     background-color: #28a745;
-    border-color: #28a745;
+    border-color: #ffffff;
 }
 
 .btn-outline-success:focus,
@@ -10996,7 +10996,7 @@ h5,
 
 .form-control {
     height: 52px;
-    background: transparent;
+    background: #fff;
     color: #000;
     font-size: 14px;
     border-radius: 5px;
@@ -11029,6 +11029,29 @@ textarea.form-control {
 .btn:active,
 .btn:focus {
     outline: none;
+}
+
+.btn.btn-primary {
+    background: #ffffff !important;
+    color: #fff !important;
+}
+
+.btn.btn-primary:hover {
+    border: 1px black solid;
+    background: transparent;
+    color: #5eb7b7;
+}
+
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #5eb7b7;
+    background: transparent;
+    color: #5eb7b7;
+}
+
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #5eb7b7;
+    color: #fff;
 }
 
 .ftco-section {
@@ -11081,7 +11104,7 @@ textarea.form-control {
 }
 
 .modal-content .modal-body.color-1 {
-    background-image: url('https://mixme.com.br/wp-content/uploads/2021/10/elite-seguimentos-show.jpg');
+    background-image: url('https://i.pinimg.com/originals/6a/fd/2b/6afd2bd716ce8d4567c3ff08072fb9c8.jpg');
 }
 
 .modal-content .modal-body.color-2 {
@@ -11150,10 +11173,6 @@ textarea.form-control {
 .modal-content .btn-primary {
     background: white !important;
     height: 52px;
-    border: none;
-    color: indigo;
-    width: 100%;
-    font-weight: bold;
 }
 
 .form-check {
@@ -11208,4 +11227,8 @@ textarea.form-control {
 
 .form-check.disabled .fill-checkbox .fill-control-description {
     color: rgba(255, 255, 255, 0.4);
+}
+
+button:hover {
+    border: solid 1px black;
 }
