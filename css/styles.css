@@ -14,6 +14,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -11220,7 +11222,7 @@ body {
     }
     .masthead h1,
     .masthead .h1 {
-        font-size: 6.5rem;
+        font-size: 6rem;
         line-height: 6.5rem;
         letter-spacing: 0.8rem;
     }

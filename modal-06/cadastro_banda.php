@@ -1,37 +1,5 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <title>Cadastro Estabelecimento</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style_cadastro_estabelecimento.css">
-</head>
-
-<body>
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center js-fullheight">
-                <div class="col-md-6 text-center d-flex align-items-center">
-                    <div class="wrap w-100">
-                        <h2 class="mb-2">Modal 06</h2>
-                        <button type="button" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#ModalCadastro">
-							  Launch Modal 06
-							</button>
-
-                        <!-- Modal -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="modal fade" id="ModalCadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="modalbanda" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <!--Cadastro-->
 
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -43,7 +11,7 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col-md-6 d-flex">
-                        <div class="modal-body-e p-5 img d-flex color-1 text-center d-flex align-items-center">
+                        <div class="modal-body-banda p-5 img d-flex color-1 text-center d-flex align-items-center">
                             <div class="text w-100">
                                 <span class="icon-2 ion-ios-beer"></span>
 
@@ -51,14 +19,14 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">
-                        <div class="modal-body-e p-5 img d-flex align-items-center color-2">
+                        <div class="modal-body-banda p-5 img d-flex align-items-center color-2">
                             <div class="text w-100 py-0 py-md-5">
                                 <h3 class="mb-4">Cadastre-se</h3>
                                 <form action="#" class="signup-form">
 
                                     <div class="form-group mb-3">
-                                        <label class="label" for="email">Nome do Estabelecimento</label>
-                                        <input type="text" class="form-control" placeholder="Digite o nome do Estabelecimento">
+                                        <label class="label" for="email">Nome da banda/solista</label>
+                                        <input type="text" class="form-control" placeholder="Digite o nome da banda/solista">
                                     </div>
                                     <div class="form-group mb-3">
                                         <label class="label" for="email">E-mail</label>
@@ -82,7 +50,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <button style="color:black;" type="submit" class="form-control btn btn-primary rounded submit px-3">Cadastrar</button>
+                                        <button type="submit" class="form-control btn btn-primary rounded submit px-3">Cadastrar</button>
                                     </div>
                                 </form>
 
@@ -94,10 +62,4 @@
         </div>
     </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+   

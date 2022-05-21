@@ -1,37 +1,5 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <title>Cadastro Estabelecimento</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style_cadastro_estabelecimento.css">
-</head>
-
-<body>
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center js-fullheight">
-                <div class="col-md-6 text-center d-flex align-items-center">
-                    <div class="wrap w-100">
-                        <h2 class="mb-2">Modal 06</h2>
-                        <button type="button" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#ModalCadastro">
-							  Launch Modal 06
-							</button>
-
-                        <!-- Modal -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="modal fade" id="ModalCadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="modalestabelecimento" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <!--Cadastro-->
 
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -94,10 +62,4 @@
         </div>
     </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+   

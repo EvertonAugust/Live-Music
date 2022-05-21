@@ -12,9 +12,7 @@
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="stylesheet" href="modal-06/css/style_cadastro_banda.css">
     <link rel="stylesheet" href="modal-06/css/style_cadastro_estabelecimento.css">
@@ -43,9 +41,7 @@
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top">Logo</a>
 
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
@@ -83,8 +79,7 @@
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by
                         Start Bootstrap.</h2>
                     <ul>
-                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal"
-                                data-target="#exampleModalCenter">Login</a></li>
+                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>
                         <li><a class="btn btn-primary botao" data-toggle="modal" data-target="#bandaouestabelecimento" href="#about">Cadastro</a></li>
                     </ul>
 
@@ -99,26 +94,26 @@
 
         <!-- Modals -->
         <?php
-        include 'modal-06/login.php'
+        include 'modal-06/login.php';
+        include 'modal-06/cadastro_banda.php';
+        include 'modal-06/cadastro_estabelecimento.php';
         ?>
-        <!-- Modal -->
-        <div class="modal fade" id="bandaouestabelecimento" tabindex="-1" role="dialog" aria-labelledby="bandaouestabelecimento"
-            aria-hidden="true">
+        <div style="margin:40px ;" class="modal" tabindex="-1" role="dialog" id="bandaouestabelecimento" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
             <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Banda</button>
-                        <button type="button" class="btn btn-secondary">Estabelecimento</button>
-                    </div>
+                <div style="height:0 ;" class="modal-content">
                     
+                    <div class="modal-select">
+                    
+                            
+                            
+                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-dismiss="modal" data-target="#modalbanda">Músico</a></li>
+                        <li><a class="btn btn-primary botao" data-toggle="modal" data-dismiss="modal" data-target="#modalestabelecimento" href="#about">Estabelecimento</a></li>
+                    </div>
                 </div>
             </div>
         </div>
+        
         <!-- Modals -->
 
     </header>
@@ -138,8 +133,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg"
-                        alt="..." /></div>
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4>Shoreline</h4>
@@ -202,11 +196,8 @@
                     <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="emailAddress" type="email"
-                                    placeholder="Enter email address..." aria-label="Enter email address..."
-                                    data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton"
-                                    type="submit">Notify Me!</button></div>
+                            <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
+                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
                         </div>
                         <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is
                             required.
@@ -222,8 +213,7 @@
                                 <div class="fw-bolder">Form submission successful!</div>
                                 To activate this form, sign up at
                                 <br />
-                                <a
-                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                             </div>
                         </div>
                         <!-- Submit error message-->
