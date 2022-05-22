@@ -8,7 +8,7 @@
 						<div class="featured-carousel owl-carousel">
 							<div class="item">
 								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('images/image_1.jpg');">
+		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('https://th.bing.com/th/id/R.e10f28a8941c4b659ddc3d2a86a7735d?rik=ciEUj8uVztOfdA&pid=ImgRaw&r=0');">
 										<div class="meta-date text-center p-2">
 		                  <span class="day">26</span>
 		                  <span class="mos">Nov.</span>

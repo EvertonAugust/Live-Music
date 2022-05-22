@@ -104,8 +104,6 @@
                 <div style="height:0 ;" class="modal-content">
                     
                     <div class="modal-select">
-                    
-                            
                             
                         <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-dismiss="modal" data-target="#modalbanda">Músico</a></li>
                         <li><a class="btn btn-primary botao" data-toggle="modal" data-dismiss="modal" data-target="#modalestabelecimento" href="#about">Estabelecimento</a></li>
