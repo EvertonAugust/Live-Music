@@ -43,7 +43,7 @@
                                         <button type="submit" class="form-control btn btn-primary rounded submit px-3">Entrar</button>
                                     </div>
                                 </form>
-                                <a style="font-weight: bolder;color: white;" href="#" data-toggle="modal" data-target="#ModalCadastro">Cadastre-se</a>
+                                <a style="font-weight: bolder;color: white;" href="#" data-toggle="modal" data-target="#bandaouestabelecimento">Cadastre-se</a>
                             </div>
                         </div>
                     </div>
