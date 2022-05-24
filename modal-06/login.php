@@ -35,7 +35,7 @@
                                             <label class="custom-control fill-checkbox">
 													<input type="checkbox" class="fill-control-input">
 													<span class="fill-control-indicator"></span>
-													<span class="fill-control-description">Aceito os termos</span>
+													<span class="fill-control-description">Aceito</span>
 												</label>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@
                                         <button type="submit" class="form-control btn btn-primary rounded submit px-3">Entrar</button>
                                     </div>
                                 </form>
-                                <a style="font-weight: bolder;color: white;" href="#" data-toggle="modal" data-target="#bandaouestabelecimento">Cadastre-se</a>
+                                <a style="font-weight: bolder;color: white;" href="#" data-toggle="modal" data-target="#cadastro_usuario">Cadastre-se</a>
                             </div>
                         </div>
                     </div>
