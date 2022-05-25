@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="estilo-musical" class="label">Estilo Musical</label><br>
-                                    <select style="font-size:15px ;background-color:transparent ;border:0;font-weight:bold ;color:white;" name="cars" id="cars">
+                                    <select style="font-size:15px ;background-color:transparent ;border:0;font-weight:bold ;color:white;" name="estilo-musical" id="estilo-musical">
                                         <option class="select-cadastro" value="mpb">MPB</option>
                                         <option class="select-cadastro" value="sertanejo">Sertanejo</option>
                                         <option class="select-cadastro" value="rock">Rock</option>
@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="password">Cep</label>
-                                    <input type="text" class="form-control" placeholder="Digite seu Cep">
+                                    <input type="text" onkeypress="$(this).mask('00.000-000')" class="form-control" placeholder="Digite seu Cep">
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="password">Rua</label>
@@ -71,11 +71,35 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="estilo-musical" class="label">Estado</label><br>
-                                    <select style="font-size:15px ;background-color:transparent ;border:0;font-weight:bold ;color:white;" name="cars" id="cars">
-                                        <option class="select-cadastro" value="mpb">SP</option>
-                                        <option class="select-cadastro" value="sertanejo">MG</option>
-                                        <option class="select-cadastro" value="rock">RJ</option>
-                                        <option class="select-cadastro" value="samba">BA</option>
+                                    <select style="font-size:15px ;background-color:transparent ;border:0;font-weight:bold ;color:white;" name="estado" id="estado">
+                                        <option class="select-cadastro" value="AC">Acre</option>
+                                        <option class="select-cadastro" value="AL">Alagoas</option>
+                                        <option class="select-cadastro" value="AP">Amapá</option>
+                                        <option class="select-cadastro" value="AM">Amazonas</option>
+                                        <option class="select-cadastro" value="BA">Bahia</option>
+                                        <option class="select-cadastro" value="CE">Ceará</option>
+                                        <option class="select-cadastro" value="DF">Distrito Federal</option>
+                                        <option class="select-cadastro" value="ES">Espírito Santo</option>
+                                        <option class="select-cadastro" value="GO">Goiás</option>
+                                        <option class="select-cadastro" value="MA">Maranhão</option>
+                                        <option class="select-cadastro" value="MT">Mato Grosso</option>
+                                        <option class="select-cadastro" value="MS">Mato Grosso do Sul</option>
+                                        <option class="select-cadastro" value="MG">Minas Gerais</option>
+                                        <option class="select-cadastro" value="PA">Pará</option>
+                                        <option class="select-cadastro" value="PB">Paraíba</option>
+                                        <option class="select-cadastro" value="PR">Paraná</option>
+                                        <option class="select-cadastro" value="PE">Pernambuco</option>
+                                        <option class="select-cadastro" value="PI">Piauí</option>
+                                        <option class="select-cadastro" value="RJ">Rio de Janeiro</option>
+                                        <option class="select-cadastro" value="RN">Rio Grande do Norte</option>
+                                        <option class="select-cadastro" value="RS">Rio Grande do Sul</option>
+                                        <option class="select-cadastro" value="RO">Rondônia</option>
+                                        <option class="select-cadastro" value="RR">Roraima</option>
+                                        <option class="select-cadastro" value="SC">Santa Catarina</option>
+                                        <option class="select-cadastro" value="SP">São Paulo</option>
+                                        <option class="select-cadastro" value="SE">Sergipe</option>
+                                        <option class="select-cadastro" value="TO">Tocantins</option>
+                                        <option class="select-cadastro" value="EX">Estrangeiro</option>
                                     </select>
 
                                 </div>
@@ -84,7 +108,7 @@
                                         <label class="custom-control fill-checkbox">
                                             <input type="checkbox" class="fill-control-input">
                                             <span class="fill-control-indicator"></span>
-                                            <span class="fill-control-description">Eu aceito os termos</span>
+                                            <span class="fill-control-description">Eu aceito</span>
                                         </label>
                                     </div>
                                 </div>
