@@ -94,16 +94,10 @@
 
         </div>
 
-        <!-- Modals -->
-        <?php
-        include 'modal-06/login.php';
-        include 'modal-06/cadastro_banda.php';
-        include 'modal-06/cadastro_estabelecimento.php';
-        include 'modal-06/cadastro_usuario.php';
-        ?>
         
         
-        <!-- Modals -->
+        
+       
 
     </header>
 
