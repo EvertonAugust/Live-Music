@@ -132,7 +132,7 @@
 						<p>Endereço</p>
 						<div class="form-row">
 							<div class="form-holder">
-								<input type="email" placeholder="CEP" class="form-control">
+								<input type="email" onkeypress="$(this).mask('00.000-000')" placeholder="CEP" class="form-control">
 							</div>
 							<div class="form-holder">
 								<input type="number" placeholder="Número" class="form-control">
@@ -207,6 +207,7 @@
 	<!-- JQUERY STEP -->
 	<script src="js/jquery.steps.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 	<!-- Template created and distributed by Colorlib -->
 </body>
 
