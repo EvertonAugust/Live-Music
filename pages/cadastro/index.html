@@ -29,42 +29,25 @@
 						<div class="form-header">
 							<h3>Banda</h3>
 						</div>
-						<p>Please fill with your details</p>
+						<p>Dados Pessoais</p>
 						<div class="form-row">
-							<div class="form-holder">
-								<input type="text" placeholder="Digite o seu nome" class="form-control">
+							<div class="form-holder w-100">
+								<input type="text" placeholder="Nome completo" class="form-control">
 							</div>
 
 						</div>
 						<div class="form-row">
 							<div class="form-holder">
-								<input type="text" placeholder="Your Email" class="form-control">
+								<input type="text" oninput="cpf(this)" placeholder="CPF" class="form-control">
 							</div>
 							<div class="form-holder">
-								<input type="text" placeholder="Phone Number" class="form-control">
+								<input type="tel" id="phone" placeholder="Telefone" class="form-control">
 							</div>
 						</div>
-						<div class="form-row">
-							<div class="form-holder">
-								<input type="text" placeholder="Age" class="form-control">
-							</div>
-							<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
-								<div class="checkbox-tick">
-									<label class="male">
-										<input type="radio" name="gender" value="male" checked> Male<br>
-										<span class="checkmark"></span>
-									</label>
-									<label class="female">
-										<input type="radio" name="gender" value="female"> Female<br>
-										<span class="checkmark"></span>
-									</label>
-								</div>
-							</div>
-						</div>
+						
 						<div class="checkbox-circle">
 							<label>
-								<input type="checkbox" checked> Nor again is there anyone who loves or pursues or
-								desires to obtaini.
+								<input type="checkbox" checked> Ao informar meus dados, eu concordo com a Política de Privacidade e com os Termos de Uso de Imagem.
 								<span class="checkmark"></span>
 							</label>
 						</div>
@@ -83,20 +66,21 @@
 					</div>
 					<div class="form-content">
 						<div class="form-header">
-							<h3>Registration</h3>
+							<h3>Banda</h3>
 						</div>
-						<p>Please fill with additional info</p>
-						<div class="form-row">
-							<div class="form-holder w-100">
-								<input type="email" placeholder="Digite o e-mail de contato" class="form-control">
-							</div>
-						</div>
+						<p>Informações da banda/músico</p>
+						
 						<div class="form-row">
 							<div class="form-holder">
 								<input type="text" placeholder="Nome da banda/solista" class="form-control">
 							</div>
 							<div class="form-holder">
 								<input type="number" placeholder="Quantidade de integrantes" class="form-control">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-holder w-100">
+								<input type="email" placeholder=" E-mail de contato" class="form-control">
 							</div>
 						</div>
 
@@ -127,12 +111,13 @@
 					</div>
 					<div class="form-content">
 						<div class="form-header">
-							<h3>Registration</h3>
+							<h3>Banda</h3>
 						</div>
 						<p>Endereço</p>
 						<div class="form-row">
 							<div class="form-holder">
-								<input type="email" onkeypress="$(this).mask('00.000-000')" placeholder="CEP" class="form-control">
+								<input type="text" onkeypress="$(this).mask('00.000-000')" placeholder="CEP"
+									class="form-control">
 							</div>
 							<div class="form-holder">
 								<input type="number" placeholder="Número" class="form-control">
@@ -143,7 +128,7 @@
 								<input type="text" placeholder="Rua" class="form-control">
 							</div>
 							<div class="form-holder">
-								<input type="number" placeholder="Complemento" class="form-control">
+								<input type="text" placeholder="Complemento" class="form-control">
 							</div>
 						</div>
 						<div class="form-row">
@@ -156,49 +141,51 @@
 						</div>
 						<div class="form-row">
 							<div class="form-holder">
-								<label  class="select">Estado</label>
-										<select style="border:0 ; color: #666;width: 20px;">
-											<option class="select-cadastro" value="AC">Acre</option>
-											<option class="select-cadastro" value="AL">Alagoas</option>
-											<option class="select-cadastro" value="AP">Amapá</option>
-											<option class="select-cadastro" value="AM">Amazonas</option>
-											<option class="select-cadastro" value="BA">Bahia</option>
-											<option class="select-cadastro" value="CE">Ceará</option>
-											<option class="select-cadastro" value="DF">Distrito Federal</option>
-											<option class="select-cadastro" value="ES">Espírito Santo</option>
-											<option class="select-cadastro" value="GO">Goiás</option>
-											<option class="select-cadastro" value="MA">Maranhão</option>
-											<option class="select-cadastro" value="MT">Mato Grosso</option>
-											<option class="select-cadastro" value="MS">Mato Grosso do Sul</option>
-											<option class="select-cadastro" value="MG">Minas Gerais</option>
-											<option class="select-cadastro" value="PA">Pará</option>
-											<option class="select-cadastro" value="PB">Paraíba</option>
-											<option class="select-cadastro" value="PR">Paraná</option>
-											<option class="select-cadastro" value="PE">Pernambuco</option>
-											<option class="select-cadastro" value="PI">Piauí</option>
-											<option class="select-cadastro" value="RJ">Rio de Janeiro</option>
-											<option class="select-cadastro" value="RN">Rio Grande do Norte</option>
-											<option class="select-cadastro" value="RS">Rio Grande do Sul</option>
-											<option class="select-cadastro" value="RO">Rondônia</option>
-											<option class="select-cadastro" value="RR">Roraima</option>
-											<option class="select-cadastro" value="SC">Santa Catarina</option>
-											<option class="select-cadastro" value="SP">São Paulo</option>
-											<option class="select-cadastro" value="SE">Sergipe</option>
-											<option class="select-cadastro" value="TO">Tocantins</option>
-											<option class="select-cadastro" value="EX">Estrangeiro</option>
-										</select>
-							<div class="form-holder">
+								<label class="select">Estado</label>
+								<select style="border:0 ; color: #666;width: 20px;">
+									<option class="select-cadastro" value="AC">Acre</option>
+									<option class="select-cadastro" value="AL">Alagoas</option>
+									<option class="select-cadastro" value="AP">Amapá</option>
+									<option class="select-cadastro" value="AM">Amazonas</option>
+									<option class="select-cadastro" value="BA">Bahia</option>
+									<option class="select-cadastro" value="CE">Ceará</option>
+									<option class="select-cadastro" value="DF">Distrito Federal</option>
+									<option class="select-cadastro" value="ES">Espírito Santo</option>
+									<option class="select-cadastro" value="GO">Goiás</option>
+									<option class="select-cadastro" value="MA">Maranhão</option>
+									<option class="select-cadastro" value="MT">Mato Grosso</option>
+									<option class="select-cadastro" value="MS">Mato Grosso do Sul</option>
+									<option class="select-cadastro" value="MG">Minas Gerais</option>
+									<option class="select-cadastro" value="PA">Pará</option>
+									<option class="select-cadastro" value="PB">Paraíba</option>
+									<option class="select-cadastro" value="PR">Paraná</option>
+									<option class="select-cadastro" value="PE">Pernambuco</option>
+									<option class="select-cadastro" value="PI">Piauí</option>
+									<option class="select-cadastro" value="RJ">Rio de Janeiro</option>
+									<option class="select-cadastro" value="RN">Rio Grande do Norte</option>
+									<option class="select-cadastro" value="RS">Rio Grande do Sul</option>
+									<option class="select-cadastro" value="RO">Rondônia</option>
+									<option class="select-cadastro" value="RR">Roraima</option>
+									<option class="select-cadastro" value="SC">Santa Catarina</option>
+									<option class="select-cadastro" value="SP">São Paulo</option>
+									<option class="select-cadastro" value="SE">Sergipe</option>
+									<option class="select-cadastro" value="TO">Tocantins</option>
+									<option class="select-cadastro" value="EX">Estrangeiro</option>
+								</select>
+								<div class="form-holder">
+								</div>
 							</div>
+
+
+
 						</div>
 
 
 					</div>
-
-
 				</div>
-	</div>
-	</section>
-	</form>
+			</section>
+		
+		</form>
 	</div>
 
 	<!-- JQUERY -->
@@ -208,6 +195,38 @@
 	<script src="js/jquery.steps.js"></script>
 	<script src="js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mask.js"></script>
+
+
+
+	<!--CPF-->
+	<script>function cpf(i) {
+
+			var v = i.value;
+
+			if (isNaN(v[v.length - 1])) { // impede entrar outro caractere que não seja número
+				i.value = v.substring(0, v.length - 1);
+				return;
+			}
+
+			i.setAttribute("maxlength", "14");
+			if (v.length == 3 || v.length == 7) i.value += ".";
+			if (v.length == 11) i.value += "-";
+
+		}</script>
+
+	<!--Telefone-->
+	<script>
+		$(document).ready(function ($) {
+			$("#phone").mask("(99) 9 9999-9999");
+			$("#telf1").mask("(99) 9999*-9999");
+			$("#telf2").mask("(99) 9999?-9999");
+		});
+	</script>
+
+
+
+
 	<!-- Template created and distributed by Colorlib -->
 </body>
 

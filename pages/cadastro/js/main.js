@@ -6,9 +6,9 @@ $(function(){
         enableAllSteps: true,
         transitionEffectSpeed: 500,
         labels: {
-            finish: "Submit",
-            next: "Forward",
-            previous: "Backward"
+            finish: "Concluir",
+            next: "Próximo",
+            previous: "Voltar"
         }
     });
     $('.wizard > .steps li a').click(function(){
