@@ -22,7 +22,7 @@
             <section>
                 <div class="inner">
                     <div class="image-holder">
-                        <img style="height: 100% ;" src="https://cdn.stocksnap.io/img-thumbs/960w/music-guitar_BWLHIIOGVX.jpg" alt="">
+                        <img style="height: 100% ;" src="https://images.pexels.com/photos/1452793/pexels-photo-1452793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     </div>
                     <div class="form-content">
                         <div class="form-header">
@@ -59,30 +59,31 @@
             <section>
                 <div class="inner">
                     <div class="image-holder">
-                        <img style="height:100%;" src="https://images.pexels.com/photos/704964/pexels-photo-704964.jpeg?cs=srgb&dl=pexels-daria-shevtsova-704964.jpg&fm=jpg" alt="">
+                        <img style="height:100%;" src="https://images.pexels.com/photos/2240765/pexels-photo-2240765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     </div>
                     <div class="form-content">
                         <div class="form-header">
-                            <h3>Banda</h3>
+                            <h3>Estabelecimento</h3>
                         </div>
                         <p>Informações do estabelecimento</p>
 
                         <div class="form-row">
-                            <div class="form-holder">
+                            <div class="form-holder w-100">
                                 <input type="text" placeholder="Nome do estabelecimento" class="form-control">
                             </div>
-                            <div class="form-holder">
-                                <input type="text" placeholder="CNPJ" class="form-control">
-                            </div>
+
                         </div>
                         <div class="form-row">
                             <div class="form-holder">
                                 <input type="text" placeholder="Razão Social" class="form-control">
                             </div>
+                            <div class="form-holder">
+                                <input type="text" id="cnpj" placeholder="CNPJ" class="form-control">
+                            </div>
                         </div>
                         <div class="form-row">
                             <div class="form-holder w-100">
-                                <input type="email" placeholder=" E-mail de contato" class="form-control">
+                                <input type="email" placeholder="E-mail de contato" class="form-control">
                             </div>
                         </div>
 
@@ -97,11 +98,11 @@
             <section>
                 <div class="inner">
                     <div class="image-holder">
-                        <img style="height: 100%;" src="images/musico3.jpg" alt="">
+                        <img style="height: 100%;" src="https://images.pexels.com/photos/1426620/pexels-photo-1426620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     </div>
                     <div class="form-content">
                         <div class="form-header">
-                            <h3>Banda</h3>
+                            <h3>Estabelecimento</h3>
                         </div>
                         <p>Endereço</p>
                         <div class="form-row">
@@ -130,8 +131,9 @@
                         </div>
                         <div class="form-row">
                             <div class="form-holder">
-                                <label class="select">Estado</label>
-                                <select style="border:0 ; color: #666;width: 20px;">
+
+                                <select placeholder="estado" style="border:0 ; color:#666;width: 75%;">
+									<option class="select-cadastro" value="" disabled selected>Estado</option>
 									<option class="select-cadastro" value="AC">Acre</option>
 									<option class="select-cadastro" value="AL">Alagoas</option>
 									<option class="select-cadastro" value="AP">Amapá</option>
@@ -151,7 +153,7 @@
 									<option class="select-cadastro" value="PE">Pernambuco</option>
 									<option class="select-cadastro" value="PI">Piauí</option>
 									<option class="select-cadastro" value="RJ">Rio de Janeiro</option>
-									<option class="select-cadastro" value="RN">Rio Grande do Norte</option>
+									<option class="select-cadastro" value="RN"><small>Rio Grande do Norte</small></option>
 									<option class="select-cadastro" value="RS">Rio Grande do Sul</option>
 									<option class="select-cadastro" value="RO">Rondônia</option>
 									<option class="select-cadastro" value="RR">Roraima</option>
@@ -161,20 +163,20 @@
 									<option class="select-cadastro" value="TO">Tocantins</option>
 									<option class="select-cadastro" value="EX">Estrangeiro</option>
 								</select>
-                                <div class="form-holder">
-                                </div>
+
                             </div>
-
-
-
                         </div>
 
 
-                    </div>
-                </div>
-            </section>
 
-        </form>
+                    </div>
+
+
+                </div>
+    </div>
+    </section>
+
+    </form>
     </div>
 
     <!-- JQUERY -->
@@ -214,6 +216,14 @@
             $("#telf2").mask("(99) 9999?-9999");
         });
     </script>
+    <!--CNPJ-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#cnpj").mask("99.999.999/9999-99");
+        });
+    </script>
+
+
 
 
 
