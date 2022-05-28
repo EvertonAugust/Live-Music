@@ -75,13 +75,12 @@
             <div class="d-flex justify-content-center">
                 <div class="text-center">
 
-                    <h1 class="mx-auto my-0 text-uppercase">Nome do Site</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by
-                        Start Bootstrap.</h2>
+                <h1 class="mx-auto my-0 text-uppercase">Live Music</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A plataforma que você encontra melodia e emoção em um só lugar !!!</h2>
                     <ul>
                         
-                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#modalbanda">Músico</a></li>
-                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#modalestabelecimento">Estabelecimento</a></li>
+                        <li><a class="btn btn-primary botao" href="./pages/cadastro/cadastro_musico.html">Músico</a></li>
+                        <li><a class="btn btn-primary botao" href="./pages/cadastro/cadastro_estabelecimento.html">Estabelecimento</a></li>
                         
                     </ul>
 
@@ -101,7 +100,7 @@
 
     </header>
 
-
+    
     <!-- Carrossel -->
     <?php
     include 'carrossel/carrossel.php';
@@ -113,7 +112,9 @@
 
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
+    
         <div class="container px-4 px-lg-5">
+        
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                 <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>

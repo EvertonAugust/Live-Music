@@ -10899,3 +10899,14 @@ h5,
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.4);
 }
+
+@font-face {
+    font-family: 'lemon-milk';
+    src: url(../fonts/LEMONMILK-Regular.otf);
+}
+
+.titulo_ {
+    font-family: 'lemon-milk';
+    font-weight: bold;
+    color: #533E85;
+}

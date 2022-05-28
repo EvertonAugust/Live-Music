@@ -1,5 +1,9 @@
 <section class="ftco-section" id="show">
+<h1 style="text-align: center;margin: 10px;" class="titulo_">Agenda de Shows</h1><br><br><br><br>
+
+
 			<div class="container">
+			
 				<div class="row">
 					<div class="col-md-12 text-center">
 						

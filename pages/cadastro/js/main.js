@@ -9,6 +9,7 @@ $(function() {
             finish: "Concluir",
             next: "Próximo",
             previous: "Voltar"
+
         }
     });
     $('.wizard > .steps li a').click(function() {
