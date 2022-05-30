@@ -1,4 +1,4 @@
-<div class="modal fade" id="cadastro_usuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="cadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <!--Cadastro-->
 
         <div class="modal-dialog modal-dialog-centered" role="document">

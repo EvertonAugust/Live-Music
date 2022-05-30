@@ -73,14 +73,15 @@
     <header class="masthead" id="home">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
-                <div class="text-center">
+                <div style="padding-top: 70px;" class="text-center">
 
                     <h1 class="mx-auto my-0 text-uppercase">Nome do Site</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by
                         Start Bootstrap.</h2>
                     <ul>
                         <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>
-                        
+                        <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+
                     </ul>
 
 
@@ -95,9 +96,8 @@
         <!-- Modals -->
         <?php
         include 'modal-06/login.php';
-        include 'modal-06/cadastro_banda.php';
-        include 'modal-06/cadastro_estabelecimento.php';
-        include 'modal-06/cadastro_usuario.php';
+        include 'modal-06/cadastro.php';
+        
         ?>
         
         
@@ -171,16 +171,7 @@
     <section id="signup" class="contact-section bg-purple">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i style="color:black ;" class="fas fa-map-marked-alt mb-2"></i>
-                            <h4 class="text-uppercase m-0">Address</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">

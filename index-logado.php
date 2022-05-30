@@ -73,7 +73,7 @@
     <header class="masthead" id="home">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
-                <div class="text-center">
+                <div style="padding-top: 43px;" class="text-center">
 
                 <h1 class="mx-auto my-0 text-uppercase">Live Music</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A plataforma que você encontra melodia e emoção em um só lugar !!!</h2>
@@ -81,6 +81,7 @@
                         
                         <li><a class="btn btn-primary botao" href="./pages/cadastro/cadastro_musico.html">Músico</a></li>
                         <li><a class="btn btn-primary botao" href="./pages/cadastro/cadastro_estabelecimento.html">Estabelecimento</a></li>
+                        <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
                         
                     </ul>
 

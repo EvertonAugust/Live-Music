@@ -8,8 +8,8 @@
 					<div class="col-md-12 text-center">
 						
 					</div>
-					<div class="col-md-12">
-						<div class="featured-carousel owl-carousel">
+					<div id="show-carrossel" class="col-md-12">
+						<div  class="featured-carousel owl-carousel">
 							<div class="item">
 								<div class="blog-entry">
 		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('https://th.bing.com/th/id/R.e10f28a8941c4b659ddc3d2a86a7735d?rik=ciEUj8uVztOfdA&pid=ImgRaw&r=0');">
