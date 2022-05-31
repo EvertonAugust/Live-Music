@@ -39,7 +39,6 @@ Text Domain: developer
 //  01 - Global 
 /////////////////////////////////////////////////////////////////////*/
 
-
 .dropdown {
     display: inline-block;
     position: relative;
@@ -48,10 +47,11 @@ Text Domain: developer
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 100px;
+    width: 200px;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-    background-color: rgba(209, 123, 215, 0.29);
+    background-color: rgba(80, 26, 112, 0.801);
+    
     
   }
   .dropdown:hover .dropdown-content {
@@ -66,7 +66,7 @@ Text Domain: developer
   }
   .dropdown-content a:hover {
     color: #FFFFFF;
-    background-color: #00A4BD;
+    background-color: #5800bd;
   }
 
 @font-face {
@@ -198,7 +198,7 @@ body {
 
 .site-nav ul li a:hover,
 .site-nav ul li a:focus {
-    background-color: rgba(0, 255, 255, 0.58);
+    background-color: rgba(136, 0, 255, 0.58);
 }
 
 
