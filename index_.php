@@ -75,9 +75,8 @@
             <div class="d-flex justify-content-center">
                 <div style="padding-top: 70px;" class="text-center">
 
-                    <h1 class="mx-auto my-0 text-uppercase">Nome do Site</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by
-                        Start Bootstrap.</h2>
+                    <h1 class="mx-auto my-0 text-uppercase">Live Music</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A plataforma que você encontra melodia e emoção em um só lugar !!!</h2>
                     <ul>
                         <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>
                         <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>

@@ -73,7 +73,7 @@
     <header class="masthead" id="home">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
-                <div style="padding-top: 43px;" class="text-center">
+                <div style="padding-top: 45px;" class="text-center">
 
                 <h1 class="mx-auto my-0 text-uppercase">Live Music</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A plataforma que você encontra melodia e emoção em um só lugar !!!</h2>
