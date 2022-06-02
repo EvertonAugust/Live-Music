@@ -11061,7 +11061,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-    background: #f0ddee;
+    background: #ebeff7;
 }
 
 .ftco-section h2 {
@@ -11255,3 +11255,10 @@ textarea.form-control {
 .form-check.disabled .fill-checkbox .fill-control-description {
     color: rgba(255, 255, 255, 0.4);
 }
+
+.effect-zoe:hover {
+    
+   opacity: 0.8;
+   
+}
+

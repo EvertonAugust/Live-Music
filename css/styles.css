@@ -4802,9 +4802,10 @@
         padding-top: 0.3125rem;
         padding-bottom: 0.3125rem;
         margin-right: 1rem;
-        font-size: 1.25rem;
+        
         text-decoration: none;
         white-space: nowrap;
+        
     }
 
     .navbar-nav {
@@ -12300,7 +12301,7 @@
         width: 100%;
         height: auto;
         min-height: 35rem;
-        padding: 15rem 0;
+        padding: 30% 0;
         background: linear-gradient(to bottom, rgb(206, 0, 232, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/pexels-sebastian-ervi-1763075.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -12367,6 +12368,7 @@
 
     .projects-section {
         padding: 10rem 0;
+        
     }
 
     .projects-section .featured-text {
@@ -12391,9 +12393,9 @@
         }
 
         .projects-section .project-text hr {
-            border-color: #64a19d;
-            border-width: 0.25rem;
-            width: 30%;
+             border-color: #acbed5;
+             border-width: 0.25rem;
+             width: 30%;
         }
     }
 
@@ -12474,5 +12476,19 @@
     .select-cadastro:hover {
         background-color: var(--bs-purple);
     }
+
+    .purple{
+        background-color:#533E85;
+        color: white;
+    }
+
+    .white{
+        color: white;
+    }
+
+
+
+
+
 
     
