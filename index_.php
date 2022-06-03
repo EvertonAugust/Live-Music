@@ -40,7 +40,8 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
             <div class="logo">
-            <a class="navbar-brand" href="#page-top"><img style="width: 6.5rem;" src="images/logo_tcc2.svg"></a></div>
+                <a class="navbar-brand" href="#page-top"><img style="width: 6.5rem;" src="images/logo_tcc2.svg"></a>
+            </div>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -64,7 +65,7 @@
                             <input type="text" class="input-search" placeholder="Pesquisar">
                         </div>
                     </li>
-                    
+
 
 
                 </ul>
@@ -80,18 +81,20 @@
                     <h1 class="mx-auto my-0 text-uppercase">Live Music</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A plataforma que você encontra melodia e emoção em um só lugar !!!</h2>
                     <ul>
-                        <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>
-                        
+                        <!-- <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>-->
+
 
                     </ul>
-                    <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;margin-bottom: -25%;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-
-
-
-
-
+                    
+                        <a href="#show-carrossel"><i style="color: white;font-size: 40px;position: absolute;bottom: 10%;left: 50%;" class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    
                 </div>
             </div>
+
+
+
+                
+            
 
         </div>
 
@@ -99,10 +102,10 @@
         <?php
         include 'modal-06/login.php';
         include 'modal-06/cadastro.php';
-        
+
         ?>
-        
-        
+
+
         <!-- Modals -->
 
     </header>
@@ -123,7 +126,7 @@
         <div class="container px-4 px-lg-5">
 
             <!-- Featured Project Row-->
-            
+
             <!-- Project One Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                 <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/musico.jpeg" alt="..." /></a></div>
@@ -142,7 +145,7 @@
             </div>
             <!-- Project Two Row-->
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe"  src="images/estabelecimento.jpeg" alt="..." /></a></div>
+                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/estabelecimento.jpeg" alt="..." /></a></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="purple text-center h-100 project">
                         <div class="d-flex h-100">
@@ -164,7 +167,7 @@
     <section id="signup" class="contact-section bg-purple">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
-                
+
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
@@ -188,11 +191,11 @@
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                
+
                 <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                 <a class="mx-2" href="#!"><i class="fa-brands fa-instagram"></i></a>
                 <a class="mx-2" href="#!"><i class="fa-brands fa-whatsapp"></i></a>
-                
+
 
             </div>
         </div>

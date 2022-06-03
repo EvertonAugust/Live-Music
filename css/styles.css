@@ -12321,13 +12321,16 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
+        width: 100%;
     }
 
     .masthead h2,
     .masthead .h2 {
-        max-width: 20rem;
+        max-width: 30rem;
         font-size: 1rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+        padding-top: 5%;
+        
     }
 
     @media (min-width: 768px) {
@@ -12343,6 +12346,7 @@
         .masthead {
             height: 96vh;
             padding: 0;
+            
         }
 
         .masthead h1,
@@ -12351,6 +12355,7 @@
             line-height: 6.5rem;
             letter-spacing: 0.8rem;
             padding: 20px;
+            
         }
 
         .masthead h2,
@@ -12488,3 +12493,5 @@
     .white {
         color: white;
     }
+
+    
