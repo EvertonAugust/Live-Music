@@ -50,6 +50,7 @@
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
+                    
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#show">Shows</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
@@ -81,7 +82,7 @@
 
                         <li><a class="btn btn-primary botao" href="./pages/cadastro/cadastro_musico.html">Músico</a></li>
                         <li><a class="btn btn-primary botao" href="./pages/cadastro/cadastro_estabelecimento.html">Estabelecimento</a></li>
-                        <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+                        <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;margin-bottom: -25%;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
 
                     </ul>
 
@@ -135,21 +136,21 @@
                 </div>
             </div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" style="height:100% ;" src="images/estabelecimento.jpeg" alt="..." /></a></div>
-                <div class="col-lg-6 order-lg-first">
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div class="col-lg-6">
                     <div class="purple text-center h-100 project">
                         <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Estabelecimentos</h4>
-                                <p style="text-align:justify ;" class="mb-0 white">Another example of a project with its respective
-                                    description. These sections work well responsively as well, try this theme on a
-                                    small screen!</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text">Estabelecimento</h4>
+                                <p style="text-align:justify ;" class="mb-0 white">An example of where you can put an image of a project, or
+                                    anything else, along with a description.</p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6"><a href="#"><img styleclass="img-fluid effect-zoe" src="images/estabelecimento.jpeg" alt="..." /></a></div>
+                
             </div>
         </div>
 

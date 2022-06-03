@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Nome do site que não existe kkkkk</title>
+    <title>Live Music</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -39,7 +39,8 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">Logo</a>
+            <div class="logo">
+            <a class="navbar-brand" href="#page-top"><img style="width: 6.5rem;" src="images/logo_tcc2.svg"></a></div>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -60,9 +61,10 @@
                     <li>
                         <div class="search-box">
                             <button class="btn-search"><i class="fas fa-search"></i></button>
-                            <input type="text" class="input-search" placeholder="Type to Search...">
+                            <input type="text" class="input-search" placeholder="Pesquisar">
                         </div>
                     </li>
+                    
 
 
                 </ul>
@@ -79,9 +81,10 @@
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A plataforma que você encontra melodia e emoção em um só lugar !!!</h2>
                     <ul>
                         <li><a class="btn btn-primary botao" href="#about" data-toggle="modal" data-target="#exampleModalCenter">Login</a></li>
-                        <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+                        
 
                     </ul>
+                    <li><a href="#show-carrossel"><i style="color:white ;font-size:40px ;margin-top:2.5rem ;margin-bottom: -25%;" class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
 
 
 
@@ -116,47 +119,47 @@
 
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
+
         <div class="container px-4 px-lg-5">
-        
 
-<!-- Featured Project Row-->
-
-<!-- Project One Row-->
-<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-    <div class="col-lg-6"><img class="img-fluid imagem" src="images/musico.jpeg" alt="..." /></div>
-    <div class="col-lg-6">
-        <div class="purple text-center h-100 project">
-            <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text">Músicos</h4>
-                    <p style="text-align:justify ;" class="mb-0 white">An example of where you can put an image of a project, or
-                        anything else, along with a description.</p>
-                    <hr class="d-none d-lg-block mb-0 ms-0" />
+            <!-- Featured Project Row-->
+            
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/musico.jpeg" alt="..." /></a></div>
+                <div class="col-lg-6">
+                    <div class="purple text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text">Músicos</h4>
+                                <p style="text-align:justify ;" class="mb-0 white">An example of where you can put an image of a project, or
+                                    anything else, along with a description.</p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe"  src="images/estabelecimento.jpeg" alt="..." /></a></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="purple text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Estabelecimentos</h4>
+                                <p style="text-align:justify ;" class="mb-0 white">Another example of a project with its respective
+                                    description. These sections work well responsively as well, try this theme on a
+                                    small screen!</p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- Project Two Row-->
-<div class="row gx-0 justify-content-center">
-    <div class="col-lg-6"><img class="img-fluid imagem" style="height:100% ;" src="images/estabelecimento.jpeg" alt="..." /></div>
-    <div class="col-lg-6 order-lg-first">
-        <div class="purple text-center h-100 project">
-            <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Estabelecimentos</h4>
-                    <p style="text-align:justify ;" class="mb-0 white">Another example of a project with its respective
-                        description. These sections work well responsively as well, try this theme on a
-                        small screen!</p>
-                    <hr class="d-none d-lg-block mb-0 me-0" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+
     </section>
-
     <!-- Contact-->
     <section id="signup" class="contact-section bg-purple">
         <div class="container px-4 px-lg-5">
