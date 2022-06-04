@@ -11,9 +11,7 @@
                 <div class="row no-gutters">
                     <div class="col-md-6 d-flex">
                         <div class="modal-body p-5 img d-flex color-1 text-center d-flex align-items-center">
-                            <div class="text w-100">
-                                <span class="icon-2 ion-ios-beer"></span>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">

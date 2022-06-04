@@ -1,4 +1,4 @@
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter" tabindex="10" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="false">
         <!---->
 
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -11,9 +11,7 @@
                 <div class="row no-gutters">
                     <div class="col-md-6 d-flex">
                         <div class="modal-body p-5 img d-flex color-1 text-center d-flex align-items-center">
-                            <div class="text w-100">
-                                <span class="icon-2 ion-ios-beer"></span>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">
@@ -43,7 +41,7 @@
                                         <button type="submit" class="form-control btn btn-primary rounded submit px-3">Entrar</button>
                                     </div>
                                 </form>
-                                <a style="font-weight: bolder;color: white;" href="#" data-toggle="modal" data-target="#cadastro">Cadastre-se</a>
+                                <a style="font-weight: bolder;color: white;" href="#" data-toggle="modal" data-dismiss="modal" data-target="#cadastro">Cadastre-se</a>
                             </div>
                         </div>
                     </div>

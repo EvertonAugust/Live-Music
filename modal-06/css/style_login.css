@@ -11169,6 +11169,7 @@ textarea.form-control {
     padding: 0;
     height: 30px;
     border-bottom: white 1px solid;
+    background: transparent;
 }
 
 .modal-content .form-control::-webkit-input-placeholder {

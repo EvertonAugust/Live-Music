@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8" />
@@ -54,7 +54,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#show">Shows</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Galeria</a></li>
                     <li class="nav-item"><a class="nav-link" href="#signup">Contato</a></li>
                     <li class="nav-item">
                         <p class="nav-invisible"></p>
@@ -65,6 +65,24 @@
                             <input type="text" class="input-search" placeholder="Pesquisar">
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <p class="nav-invisible"></p>
+                    </li>
+                    <li class="nav-item">
+                        <p class="nav-invisible"></p>
+                    </li>
+                    <li class="nav-item">
+                    <div class="dropdown">
+                                        <a style="border-bottom:none ;margin-left: 20px;" class="nav-link" href="#signup"><span class="iconeT ion ion-ios-settings"></span></a>
+                                        <div class="dropdown-content">
+                                            <a data-toggle="modal" data-target="#exampleModalCenter" style="font-size:90% ;color:white;font-weight: bold;" href="">Entrar</a>
+                                            <a style="font-size:90%;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_musico.html">Cadastrar Músico</a>
+                                            <a style="font-size:90% ;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_estabelecimento.html">Cadastrar Estabelecimento</a>
+
+                                        </div>
+                                    </div>
+                                </li>
+
 
 
 
