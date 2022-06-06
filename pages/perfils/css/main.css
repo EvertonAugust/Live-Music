@@ -76,6 +76,11 @@ Text Domain: developer
     src: local('Pacifico Regular'), local('Pacifico-Regular'), url("../fonts/pacifico.woff") format('woff');
 }
 
+@font-face {
+    font-family: 'lemon-milk';
+    src: url(../../../assets/fonts_carrossel/);
+}
+
 html,
 body {
     margin: 0;

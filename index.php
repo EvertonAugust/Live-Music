@@ -73,7 +73,7 @@
                     </li>
                     <li class="nav-item">
                     <div class="dropdown">
-                                        <a style="border-bottom:none ;margin-left: 20px;" class="nav-link" href="#signup"><span class="iconeT ion ion-ios-settings"></span></a>
+                                        <a style="border-bottom:none ;margin-left: 20px;" class="nav-link" href="#"><span class="iconeT ion ion-ios-settings"></span></a>
                                         <div class="dropdown-content">
                                             <a data-toggle="modal" data-target="#exampleModalCenter" style="font-size:90% ;color:white;font-weight: bold;" href="">Entrar</a>
                                             <a style="font-size:90%;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_musico.html">Cadastrar Músico</a>
@@ -130,9 +130,11 @@
 
 
     <!-- Carrossel -->
+    
     <?php
     include 'carrossel/carrossel.php';
     ?>
+    
     <!-- Carrossel -->
 
 

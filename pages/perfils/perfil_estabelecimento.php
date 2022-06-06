@@ -9,13 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--icones google -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_carrossel.css">
     <!-- google font -->
     <link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -39,8 +43,7 @@
                     <nav class="navbar site-nav nav-cor" role="navigation">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <i class="fa fa-bars fa-2x"></i>
                             </button>
                         </div>
@@ -49,23 +52,34 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#header"><i class="fa fa-caret-square-o-up"></i>  <!--#header-->
-                                        <span>Início</span></a>
+                                <li class="active"><a href="#header"><span style="font-size:16.8px;" class="material-symbols-outlined">
+                                            expand_less
+                                        </span>
+                                        Início</a>
                                 </li>
-                                <li><a href="#images"><i class="fa fa-file-image-o" aria-hidden="true"></i>
-                                        Imagens</a>
+                                <li><a href="#images"><span style="font-size:16.8px;" class="material-symbols-outlined">
+                                            image
+                                        </span>
+                                        Fotos</a>
                                 </li>
-                                <li><a href="#testimonials"><i class="fa fa-users" aria-hidden="true"></i>
-                                        Integrantes</a></li>
-                                <li><a href="#contact"><i class="fa fa-file-text-o"></i> Descrição</a></li>
+                                <li><a href="#show"><span style="font-size:16.8px;" class="material-symbols-outlined">
+                                            event_note
+                                        </span>
+                                        Agenda</a></li>
+                                <li><a href="#contact"><span style="font-size:16.8px;" class="material-symbols-outlined">
+                                            description
+                                        </span>Descrição</a></li>
 
                                 <li style="background-color:#533e85 ;">
                                     <div class="dropdown">
-                                        <i style="font-size:20px ;color:beige;margin: 18px;padding-left:35px;"
-                                            class="fa fa-cog" aria-hidden="true"></i>
+                                        <i style="font-size:20px ;color:beige;margin: 18px;padding-left:35px;" class="fa fa-cog" aria-hidden="true"></i>
                                         <div class="dropdown-content">
-                                            <a style="font-size:12px ;" href="">Editar Informações</a>
-                                            <a style="font-size:12px ;" href="">Editar fotos</a>
+                                            <a style="font-size:12px ;" href="">Divulgações</a>
+                                            <a style="font-size:12px ;" href="">Editar informações</a>
+                                            <br>
+
+
+                                            <a style="font-size:12px ;" href="">Sair</a>
 
                                         </div>
                                     </div>
@@ -116,10 +130,9 @@
         <div class="isotope portfolio-items">
             <div class="element-item grid">
                 <div class="effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://funbuynet.com.br/system/Admin/Models/Event/event_images/000/000/416/seller_steps/624c81dc44fc6.png">
+                    <img class="img-responsive" alt="Imagens" src="https://funbuynet.com.br/system/Admin/Models/Event/event_images/000/000/416/seller_steps/624c81dc44fc6.png">
                     <figcaption>
-                       <!-- <h2 class="hidden-xs">Creative <span>Joe</span></h2>
+                        <!-- <h2 class="hidden-xs">Creative <span>Joe</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-dribbble"></i></a>
@@ -130,70 +143,63 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://i0.wp.com/tracklist.com.br/wp-content/uploads/2014/08/BuYAW2DIAAAE8bv-e1407795840642.png?fit=400%2C400&ssl=1">
+                    <img class="img-responsive" alt="Imagens" src="https://i0.wp.com/tracklist.com.br/wp-content/uploads/2014/08/BuYAW2DIAAAE8bv-e1407795840642.png?fit=400%2C400&ssl=1">
                     <figcaption>
-                        
+
                     </figcaption>
                 </div>
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://9a4cdd8e5789bb85.cdn.gocache.net/stereophon/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/camiseta-coldplay_3.png">
+                    <img class="img-responsive" alt="Imagens" src="https://9a4cdd8e5789bb85.cdn.gocache.net/stereophon/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/camiseta-coldplay_3.png">
                     <figcaption>
-                        
+
                     </figcaption>
                 </div>
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://rollingstone.uol.com.br/media/_versions/legacy/2011/img-1001124-coldplay_widelg.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://rollingstone.uol.com.br/media/_versions/legacy/2011/img-1001124-coldplay_widelg.jpg">
                     <figcaption>
-                       
+
                     </figcaption>
                 </div>
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://www.ticketsentradas.com/media/cache/artist_overview/media/artist/Coldplay.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://www.ticketsentradas.com/media/cache/artist_overview/media/artist/Coldplay.jpg">
                     <figcaption>
-                       
+
                     </figcaption>
                 </div>
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="http://pm1.narvii.com/6365/29ebf57ecdd490db8d397fad10a987ac29b6e044_00.jpg">
+                    <img class="img-responsive" alt="Imagens" src="http://pm1.narvii.com/6365/29ebf57ecdd490db8d397fad10a987ac29b6e044_00.jpg">
                     <figcaption>
-                        
+
                     </figcaption>
                 </div>
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://i.pinimg.com/736x/47/05/fc/4705fc98e2f055a0f87849fb2cf6bc49.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://i.pinimg.com/736x/47/05/fc/4705fc98e2f055a0f87849fb2cf6bc49.jpg">
                     <figcaption>
-                        
+
                     </figcaption>
                 </div>
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens"
-                        src="https://static.gigwise.com/artists/Coldplay%202014%20BAND%20SHOT%20600.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://static.gigwise.com/artists/Coldplay%202014%20BAND%20SHOT%20600.jpg">
                     <figcaption>
-                        
+
                     </figcaption>
                 </div>
             </div>
         </div>
         <!-- isotope portfolio-items -->
-        
+
     </div>
 
 
@@ -261,75 +267,12 @@
     </div>-->
 
 
-    <div class="content-block" id="testimonials">
-        <header class="block-heading cleafix text-center">
-            <h1 style="color: black;font-weight: 500;">Integrantes</h1>
-            <!-- <p>Lorem Ipsum Text</p> -->
-        </header>
-        <div class="block-content text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="owl-carousel">
-                            <div class="owl-item">
-                                <div class="testimonial">
-                                    <img alt="Client Photo"
-                                        src="https://akns-images.eonline.com/eol_images/Entire_Site/2014219/rs_600x600-140319072640-600.Chris-Martin-The-Voice-JR-31914.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top"
-                                        height="190" width="190">
-                                    <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc
-                                        nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.</p>
-                                    <strong>Chris Martin</strong><br>
-                                    <span>Head of Ideas, Technext</span>
-                                </div>
-                            </div>
-                            <!-- owl-item -->
-                            <div class="owl-item">
-                                <div class="testimonial">
-                                    <img alt="Client Photo"
-                                        src="https://64.media.tumblr.com/4d65e59fd5270118467b82086ae9bf90/c5dd2d39950ba530-5c/s400x600/e49fc114e2938a7efdff7ec0eaa1fd5785d2f373.pnj"
-                                        height="190" width="190">
-                                    <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc
-                                        nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.</p>
-                                    <strong>Guy Berryman</strong><br>
-                                    <span>CEO, Apple Inc</span>
-                                </div>
-                            </div>
-                            <!-- owl-item -->
-                            <div class="owl-item">
-                                <div class="testimonial">
-                                    <img alt="Client Photo"
-                                        src="https://www.famousbirthdays.com/headshots/jonny-buckland-4.jpg"
-                                        height="190" width="190">
-                                    <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc
-                                        nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.</p>
-                                    <strong>Jonny Buckland</strong><br>
-                                    <span>Team Lead, Design Studio</span>
-                                </div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="testimonial">
-                                    <img alt="Client Photo"
-                                        src="https://pbs.twimg.com/profile_images/759795861215846400/r0b7TniW_400x400.jpg"
-                                        height="190" width="190">
-                                    <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc
-                                        nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.</p>
-                                    <strong>Will Champion</strong><br>
-                                    <span>CEO, Apple Inc</span>
-                                </div>
-                            </div>
-                            <!-- owl-item -->
-                        </div>
-                        <!-- owl-carousel -->
-                    </div>
-                    <!-- col-md-12 -->
-                </div>
-                <!-- row -->
-            </div>
-            <!-- container -->
-        </div>
-        <!-- block-content -->
-    </div>
-    <!-- content-block -->
+    <?php
+
+    include_once '../../carrossel/carrossel_estabelecimento.php';
+
+
+    ?>
 
     <div class="content-block" id="contact">
         <div class="overlay-3">
@@ -342,9 +285,7 @@
                     <div class="row">
 
                         <div class="col-md-6 wow animated fadeInLeft">
-                            <img alt="Client Photo" style="border-radius: 10px;"
-                                src="https://studiosol-a.akamaihd.net/tb/letras-blog/wp-content/uploads/2020/01/3661945-melhores_do_coldplay_1390x780.jpg"
-                                height="80%" width="100%">
+                            <img alt="Client Photo" style="border-radius: 10px;" src="https://tubeledge.com/images/tecnologia/google-maps.jpg" height="80%" width="100%">
                             <p style="margin-top: 10%;font-size: 120%;">In at accumsan risus. Nam id volutpat ante.
                                 Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
                                 ultricies sit amet.In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
@@ -384,20 +325,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row ">
+                            <div class="row">
                                 <ul class="social-box ">
-                                    <li><a class="facebook-icon " href="# "><i style="color:white "
-                                                class="fa fa-facebook "></i></a></li>
-                                    <li><a class="twitter-icon " href="# "><i style="color:white "
-                                                class="fa fa-youtube-play ""></i>
-                            </a>
-                                        </li>
-                                        <li><a class=" g-plus-icon" href="#"><i style="color: white;"
-                                                    class="fa fa-whatsapp"></i></a></li>
+                                    <li><a class="facebook-icon " href="# "><i style="color:white " class="fa fa-facebook "></i></a></li>
+                                    </li>
+                                    <li><a class=" g-plus-icon" href="#"><i style="color: white;" class="fa fa-whatsapp"></i></a></li>
                                     <li>
                                         <a class="linkedin-icon" href="#">
-                                            <img src="./img/instagram.png" alt="" class="fa fa-linkedin" height="16"
-                                                width="16">
+                                            <img src="./img/instagram.png" alt="" class="fa fa-linkedin" height="16" width="16">
                                         </a>
 
                                     </li>
@@ -416,10 +351,10 @@
     <footer id="site-footer">
         <div class="container">
             <div class="row">
-               
-                    <div style="text-align:center ;" class="copyright">Live Music</div>
-                
-                
+
+                <div style="text-align:center ;" class="copyright">Live Music</div>
+
+
             </div>
         </div>
     </footer>
@@ -437,11 +372,13 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.isonscreen.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/carrossel-main.js"></script>
 
     <script src="js/main.js"></script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
