@@ -39,6 +39,12 @@ Text Domain: developer
 //  01 - Global 
 /////////////////////////////////////////////////////////////////////*/
 
+.Tamanhoimgp{
+    height: 80%;
+    width: 100%;
+    font-size: 100%;
+}
+
 .dropdown {
     display: inline-block;
     position: relative;
@@ -86,6 +92,7 @@ body {
     margin: 0;
     padding: 0;
     user-select: none;
+    min-height: 100%;
 }
 
 ::selection {
@@ -137,6 +144,11 @@ body {
 
 #header {
     background: url(../img/coldplay.webp) no-repeat center top fixed;
+    background-size: cover;
+}
+
+#headerE {
+    background: url(https://miro.medium.com/max/3172/1*hBtZkm5sDzIpNR4aOBKXBg.jpeg) no-repeat center top fixed;
     background-size: cover;
 }
 

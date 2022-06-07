@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <div class="content-block" id="header">
+    <div class="content-block" id="headerE">
         <div id="overlay-1">
             <header id="site-header" class="clearfix">
                 <div class="pull-left">
@@ -52,7 +52,7 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#header"><span style="font-size:16.8px;" class="material-symbols-outlined">
+                                <li class="active"><a href="#headerE"><span style="font-size:16.8px;" class="material-symbols-outlined">
                                             expand_less
                                         </span>
                                         Início</a>
@@ -98,11 +98,11 @@
 
             <div class="middle text-center clearfix">
                 <div class="container">
-                    <h1 class="pro-name">Coldplay
+                    <h1 class="pro-name">Reep Shaving
                         <!-- <span style="color: #71b644;" > -->
                         <!-- </span> -->
                     </h1>
-                    <p class="tagline">Rock Alternativo</p>
+                    <p class="tagline">Estabelecimento</p>
                     <div class="skills">
 
                     </div>
@@ -130,7 +130,7 @@
         <div class="isotope portfolio-items">
             <div class="element-item grid">
                 <div class="effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://funbuynet.com.br/system/Admin/Models/Event/event_images/000/000/416/seller_steps/624c81dc44fc6.png">
+                    <img class="img-responsive" alt="Imagens" src="https://i.pinimg.com/originals/b6/6d/4c/b66d4c3c0a97591eaeb1d7895ae17808.jpg">
                     <figcaption>
                         <!-- <h2 class="hidden-xs">Creative <span>Joe</span></h2>
                         <p class="icon-links">
@@ -143,7 +143,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://i0.wp.com/tracklist.com.br/wp-content/uploads/2014/08/BuYAW2DIAAAE8bv-e1407795840642.png?fit=400%2C400&ssl=1">
+                    <img class="img-responsive" alt="Imagens" src="https://pharmatech-usa.com/wp-content/uploads/2020/01/drinks.jpg">
                     <figcaption>
 
                     </figcaption>
@@ -151,7 +151,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://9a4cdd8e5789bb85.cdn.gocache.net/stereophon/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/camiseta-coldplay_3.png">
+                    <img class="img-responsive" alt="Imagens" src="https://i.pinimg.com/originals/28/af/24/28af24659f8b5a0b3a746d81f036927f.jpg">
                     <figcaption>
 
                     </figcaption>
@@ -159,7 +159,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://rollingstone.uol.com.br/media/_versions/legacy/2011/img-1001124-coldplay_widelg.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://static.wixstatic.com/media/368834_ee66ce35c3a24c16aebc05c9e865f24d~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_90,usm_0.66_1.00_0.01/368834_ee66ce35c3a24c16aebc05c9e865f24d~mv2.jpg">
                     <figcaption>
 
                     </figcaption>
@@ -167,7 +167,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://www.ticketsentradas.com/media/cache/artist_overview/media/artist/Coldplay.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://compralivre.s3-us-east-2.amazonaws.com/tenants/zedogato/products/2/asinha-de-frango-1595346381.jpeg">
                     <figcaption>
 
                     </figcaption>
@@ -175,7 +175,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="http://pm1.narvii.com/6365/29ebf57ecdd490db8d397fad10a987ac29b6e044_00.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://www.dopaoaocaviar.com.br/wp-content/uploads/2013/05/IMG_2848.jpg">
                     <figcaption>
 
                     </figcaption>
@@ -183,7 +183,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://i.pinimg.com/736x/47/05/fc/4705fc98e2f055a0f87849fb2cf6bc49.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://static.ricmais.com.br/uploads/2021/11/250736181_434485531376595_8181137448404351098_n-600x600.jpg">
                     <figcaption>
 
                     </figcaption>
@@ -191,7 +191,7 @@
             </div>
             <div class="element-item grid">
                 <div class="portfolio-item effect-zoe">
-                    <img class="img-responsive" alt="Imagens" src="https://static.gigwise.com/artists/Coldplay%202014%20BAND%20SHOT%20600.jpg">
+                    <img class="img-responsive" alt="Imagens" src="https://wargodspress.com.br/wargods/wp-content/uploads/2022/04/Mortticia-Press-2022-600x600.jpg">
                     <figcaption>
 
                     </figcaption>
@@ -285,7 +285,7 @@
                     <div class="row">
 
                         <div class="col-md-6 wow animated fadeInLeft">
-                            <img alt="Client Photo" style="border-radius: 10px;" src="https://tubeledge.com/images/tecnologia/google-maps.jpg" height="80%" width="100%">
+                            <img alt="Client Photo" style="border-radius: 10px;" src="https://tubeledge.com/images/tecnologia/google-maps.jpg" height="345px" width="100%">
                             <p style="margin-top: 10%;font-size: 120%;">In at accumsan risus. Nam id volutpat ante.
                                 Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
                                 ultricies sit amet.In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
@@ -325,6 +325,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="row">
                                 <ul class="social-box ">
                                     <li><a class="facebook-icon " href="# "><i style="color:white " class="fa fa-facebook "></i></a></li>
@@ -358,6 +359,7 @@
             </div>
         </div>
     </footer>
+    </body>
     <!-- site-footer -->
 
 
@@ -401,6 +403,6 @@
         });
     </script>
 
-</body>
+
 
 </html>
