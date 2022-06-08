@@ -8737,7 +8737,7 @@
 
     .bg-black {
         --bs-bg-opacity: 1;
-        background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+        background-color: #2f2f30;
     }
 
     .bg-purple {

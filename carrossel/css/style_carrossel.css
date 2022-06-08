@@ -2779,7 +2779,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: indigo;
+    background-color: #2f2f30;
 }
 
 .btn-secondary:hover {
@@ -10599,7 +10599,7 @@ h5,
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-    background: indigo;
+    background: #2f2f30;
 }
 
 .owl-carousel:hover .owl-nav .owl-prev,
@@ -10668,7 +10668,7 @@ h5,
 
 .blog-entry .meta-date {
     display: inline-block;
-    background: indigo;
+    background: #2f2f30;
 }
 
 .blog-entry .meta-date span {

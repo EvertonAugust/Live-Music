@@ -13,6 +13,7 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--icones google -->
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="stylesheet" href="modal-06/css/style_cadastro_banda.css">
     <link rel="stylesheet" href="modal-06/css/style_cadastro_estabelecimento.css">
@@ -72,16 +73,16 @@
                         <p class="nav-invisible"></p>
                     </li>
                     <li class="nav-item">
-                    <div class="dropdown">
-                                        <a style="border-bottom:none ;margin-left: 20px;" class="nav-link" href="#"><span class="iconeT ion ion-ios-settings"></span></a>
-                                        <div class="dropdown-content">
-                                            <a data-toggle="modal" data-target="#exampleModalCenter" style="font-size:90% ;color:white;font-weight: bold;" href="">Entrar</a>
-                                            <a style="font-size:90%;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_musico.html">Cadastrar Músico</a>
-                                            <a style="font-size:90% ;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_estabelecimento.html">Cadastrar Estabelecimento</a>
+                        <div class="dropdown">
+                            <a style="border-bottom:none ;margin-left: 20px;" class="nav-link" href="#"><span class="iconeT ion ion-ios-settings"></span></a>
+                            <div class="dropdown-content">
+                                <a data-toggle="modal" data-target="#exampleModalCenter" style="font-size:90% ;color:white;font-weight: bold;" href="">Entrar</a>
+                                <a style="font-size:90%;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_musico.html">Cadastrar Músico</a>
+                                <a style="font-size:90% ;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_estabelecimento.html">Cadastrar Estabelecimento</a>
 
-                                        </div>
-                                    </div>
-                                </li>
+                            </div>
+                        </div>
+                    </li>
 
 
 
@@ -103,16 +104,16 @@
 
 
                     </ul>
-                    
-                        <a href="#show-carrossel"><i style="color: white;font-size: 40px;position: absolute;bottom: 10%;left: 50%;" class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                    
+
+                    <a href="#show-carrossel"><i style="color: white;font-size: 40px;position: absolute;bottom: 10%;left: 50%;" class="fa fa-chevron-down" aria-hidden="true"></i></a>
+
                 </div>
             </div>
 
 
 
-                
-            
+
+
 
         </div>
 
@@ -130,11 +131,11 @@
 
 
     <!-- Carrossel -->
-    
+
     <?php
     include 'carrossel/carrossel.php';
     ?>
-    
+
     <!-- Carrossel -->
 
 
@@ -184,32 +185,9 @@
 
     </section>
     <!-- Contact-->
-    <section id="signup" class="contact-section bg-purple">
+    <section id="signup" class="contact-section bg-black">
         <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
 
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i style="color:black ;" class="fas fa-envelope mb-2"></i>
-                            <h4 class="text-uppercase m-0">Email</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a class="text-black-50" href="#!">hello@yourdomain.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i style="color:black ;" class="fas fa-mobile-alt mb-2"></i>
-                            <h4 class="text-uppercase m-0">Phone</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">+1 (555) 902-8832</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="social d-flex justify-content-center">
 
                 <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -221,8 +199,12 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer bg-purple small text-center text-white-50">
-        <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div>
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5 text-center"><i style="color:white ;" class="fas fa-mobile-alt"></i> (19) 9 9123-4567</div>
+        <div class="container px-4 px-lg-5 text-center"><i style="color:white ;" class="fas fa-envelope"></i> weblivemusic@gmail.com</div>
+        <br>
+
+
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

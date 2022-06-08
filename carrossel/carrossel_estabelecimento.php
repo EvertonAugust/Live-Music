@@ -27,8 +27,8 @@
 												add
 											</span></a></p>
 									<p class="ml-auto meta2 mb-0">
-										<a href="#" class="mr-2">Admin</a>
-										<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>
+										<a href="#" class="mr-2">Artur Nogueira - SP</a>
+										
 									</p>
 								</div>
 							</div>
@@ -52,8 +52,8 @@
 												add
 											</span></a></p>
 									<p class="ml-auto meta2 mb-0">
-										<a href="#" class="mr-2">Admin</a>
-										<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>
+										<a href="#" class="mr-2">Artur Nogueira - SP</a>
+										<!--<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>-->
 									</p>
 								</div>
 							</div>
@@ -77,8 +77,8 @@
 												add
 											</span></a></p>
 									<p class="ml-auto meta2 mb-0">
-										<a href="#" class="mr-2">Admin</a>
-										<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>
+										<a href="#" class="mr-2">Artur Nogueira - SP</a>
+										
 									</p>
 								</div>
 							</div>
