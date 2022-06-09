@@ -143,7 +143,7 @@
 
 
     <!-- Projects-->
-    <section class="projects-section bg-light" id="projects">
+    <section class="projects-section bg-light" ><p id="projects"></p>
 
         <div class="container px-4 px-lg-5">
 
@@ -151,9 +151,9 @@
 
             <!-- Project One Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/musico.jpeg" alt="..." /></a></div>
-                <div class="col-lg-6">
-                    <div class="purple text-center h-100 project">
+                <div  class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/musico.jpeg" alt="..." /></a></div>
+                <div  class="col-lg-6">
+                    <div  class="purple text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text">Músicos</h4>

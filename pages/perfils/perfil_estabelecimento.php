@@ -79,7 +79,7 @@
                                             <br>
 
 
-                                            <a style="font-size:12px ;" href="">Sair</a>
+                                            <a style="font-size:12px ;" href="../../index.php">Sair</a>
 
                                         </div>
                                     </div>
