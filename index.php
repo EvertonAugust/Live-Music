@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="carrossel/css/style_carrossel.css">
     <link rel="stylesheet" href="carrossel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
@@ -156,8 +157,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text">Músicos</h4>
-                                <p style="text-align:justify ;" class="mb-0 white">An example of where you can put an image of a project, or
-                                    anything else, along with a description.</p>
+                                <p style="text-align:start ;" class="mb-0 white">Clique aqui e explore a galeria de fotos dos nossos artistas.</p>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -172,9 +172,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Estabelecimentos</h4>
-                                <p style="text-align:justify ;" class="mb-0 white">Another example of a project with its respective
-                                    description. These sections work well responsively as well, try this theme on a
-                                    small screen!</p>
+                                <p style="text-align:start ;" class="mb-0 white">Clique aqui e conheça o ambiente dos estabelecimentos presentes no Live Music </p>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
                         </div>

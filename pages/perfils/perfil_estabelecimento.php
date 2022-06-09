@@ -35,7 +35,7 @@
         <div id="overlay-1">
             <header id="site-header" class="clearfix">
                 <div class="pull-left">
-                    <h1><a href="../../index.php"><img style="width: 10rem;position: absolute;
+                    <h1><a href="../../index.php"><img style="width: 06rem;position: absolute;
                         left: 15%;" src="../../images/logo_tcc2.svg"></a></h1>
                 </div>
 
