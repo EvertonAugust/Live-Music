@@ -105,6 +105,7 @@
   position: relative;
   min-height: 1px;
   float: left;
+  width: 100%;
   -webkit-backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
