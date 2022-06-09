@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--icones google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--icones google -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="css/style_carrossel.css">
     <!-- google font -->
@@ -325,7 +326,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="row">
                                 <ul class="social-box ">
                                     <li><a class="facebook-icon " href="# "><i style="color:white " class="fa fa-facebook "></i></a></li>
@@ -358,50 +359,54 @@
 
             </div>
         </div>
-    </footer>
-    </body>
-    <!-- site-footer -->
+    </footer><!-- site-footer -->
+    <!--modal-->
+    
 
 
-    <!-- js -->
-    <script>
-        new WOW().init();
-    </script>
+</body>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.actual.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.isonscreen.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/carrossel-main.js"></script>
 
-    <script src="js/main.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    600: {
-                        items: 1,
-                    },
-                    1000: {
-                        items: 1,
-                    }
+<!-- js -->
+<script>
+    new WOW().init();
+</script>
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.actual.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.isonscreen.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/carrossel-main.js"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1,
+                },
+                1000: {
+                    items: 1,
                 }
-            })
-        });
-    </script>
+            }
+        })
+    });
+</script>
 
 
 
