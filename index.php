@@ -13,7 +13,8 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--icones google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--icones google -->
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="stylesheet" href="modal-06/css/style_cadastro_banda.css">
     <link rel="stylesheet" href="modal-06/css/style_cadastro_estabelecimento.css">
@@ -25,7 +26,7 @@
     <link rel="stylesheet" href="carrossel/css/style_carrossel.css">
     <link rel="stylesheet" href="carrossel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
@@ -75,7 +76,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
-                            <a style="border-bottom:none ;margin-left: 20px;" class="nav-link" href="#"><span class="iconeT ion ion-ios-settings"></span></a>
+                            <a style="border-bottom:none ;margin-left: 20px;position: relative; bottom: 1px;" class="nav-link" href="#"><span class="iconeT ion ion-ios-settings"></span></a>
                             <div class="dropdown-content">
                                 <a data-toggle="modal" data-target="#exampleModalCenter" style="font-size:90% ;color:white;font-weight: bold;" href="">Entrar</a>
                                 <a style="font-size:90%;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_musico.html">Cadastrar Músico</a>
@@ -106,7 +107,7 @@
 
                     </ul>
 
-                    <a href="#show-carrossel"><i style="color: white;font-size: 40px;position: absolute;bottom: 10%;left: 50%;" class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="#show"><i style="color: white;font-size: 40px;position: absolute;bottom: 10%;left: 50%;" class="fa fa-chevron-down" aria-hidden="true"></i></a>
 
                 </div>
             </div>
@@ -133,6 +134,7 @@
 
     <!-- Carrossel -->
 
+
     <?php
     include 'carrossel/carrossel.php';
     ?>
@@ -143,7 +145,8 @@
 
 
     <!-- Projects-->
-    <section class="projects-section bg-light" ><p id="projects"></p>
+    <section class="projects-section bg-light">
+        <p id="projects"></p>
 
         <div class="container px-4 px-lg-5">
 
@@ -151,9 +154,9 @@
 
             <!-- Project One Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div  class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/musico.jpeg" alt="..." /></a></div>
-                <div  class="col-lg-6">
-                    <div  class="purple text-center h-100 project">
+                <div class="col-lg-6"><a href="#"><img class="img-fluid effect-zoe" src="images/musico.jpeg" alt="..." /></a></div>
+                <div class="col-lg-6">
+                    <div class="purple text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text">Músicos</h4>
@@ -172,7 +175,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Estabelecimentos</h4>
-                                <p style="text-align:start ;" class="mb-0 white">Clique aqui e conheça o ambiente dos estabelecimentos presentes no Live Music </p>
+                                <p style="text-align:start ;" class="mb-0 white">Clique aqui e conheça o ambiente dos estabelecimentos presentes no Live Music. </p>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
                         </div>

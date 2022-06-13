@@ -25,7 +25,7 @@
 								<small class="meta-chat">Qui, 19:00h às 02:00h.</small><br>
 								<small class="meta-chat">Av. Beliziario Neves, 89 - Jd. Carolina.</small>
 								<div class="d-flex align-items-center mt-4">
-									<p class="mb-0"><a href="#" class="btn btn-secondary">Saiba <span style="font-size:12px ;" class="material-symbols-outlined">
+									<p class="mb-0"><a href="" data-toggle="modal" data-target="#Modal" class="btn btn-secondary">Saiba <span style="font-size:12px ;" class="material-symbols-outlined">
 												add
 											</span></a></p>
 									<p class="ml-auto meta2 mb-0">

@@ -50,7 +50,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('https://1.bp.blogspot.com/-McN_mpHOhhM/Xp4DlBaunJI/AAAAAAAAtQ8/oNJ8nCts3jE-Jrt20cJyiHbeK8EAiADsQCLcBGAsYHQ/s2560/electronic_guitar_guitar_music_163246_2560x1440.jpg');
+  background:linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(149, 0, 255, 0.25) 75%, rgb(0, 0, 0) 100%), url('https://1.bp.blogspot.com/-McN_mpHOhhM/Xp4DlBaunJI/AAAAAAAAtQ8/oNJ8nCts3jE-Jrt20cJyiHbeK8EAiADsQCLcBGAsYHQ/s2560/electronic_guitar_guitar_music_163246_2560x1440.jpg');
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -60,7 +60,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://wallpapercave.com/wp/wp2848100.jpg');
+    background:linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(149, 0, 255, 0.25) 75%, rgb(0, 0, 0) 100%), url('https://wallpapercave.com/wp/wp2848100.jpg');
     background-repeat: no-repeat;
     background-size: cover; }
 
