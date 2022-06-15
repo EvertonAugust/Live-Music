@@ -6371,7 +6371,7 @@ a.close.disabled {
     z-index: 1050;
     display: none;
     width: 100%;
-    height: 100%;
+    height: auto;
     overflow: hidden;
     outline: 0;
 }
