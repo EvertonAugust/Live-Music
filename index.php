@@ -81,6 +81,7 @@
                                 <a data-toggle="modal" data-target="#exampleModalCenter" style="font-size:90% ;color:white;font-weight: bold;" href="">Entrar</a>
                                 <a style="font-size:90%;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_musico.html">Cadastrar Músico</a>
                                 <a style="font-size:90% ;color:white;font-weight: bold;" href="./pages/cadastro/cadastro_estabelecimento.html">Cadastrar Estabelecimento</a>
+                                <button style="font-size:90% ;color:white;font-weight: bold;position: relative;left:10% ;background-color:indigo ;border: 0;width: 60px;">Sair</buttom>
 
                             </div>
                         </div>
@@ -111,10 +112,6 @@
 
                 </div>
             </div>
-
-
-
-
 
 
         </div>
