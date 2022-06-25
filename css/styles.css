@@ -12330,7 +12330,7 @@
         font-size: 1rem;
         letter-spacing: 0.1rem;
         padding-top: 5%;
-        
+
     }
 
     @media (min-width: 768px) {
@@ -12346,7 +12346,7 @@
         .masthead {
             height: 96vh;
             padding: 0;
-            
+
         }
 
         .masthead h1,
@@ -12355,7 +12355,7 @@
             line-height: 6.5rem;
             letter-spacing: 0.8rem;
             padding: 20px;
-            
+
         }
 
         .masthead h2,
@@ -12494,40 +12494,60 @@
         color: white;
     }
 
-    .iconeT{
+    .iconeT {
         font-size: 150%;
         color: white;
     }
 
-    
+
     .dropdown {
         display: inline-block;
         position: relative;
-        
-      }
-      .dropdown-content {
+
+    }
+
+    .dropdown-content {
         display: none;
         position: absolute;
         width: 200px;
         overflow: auto;
         background-color: #533E85;
-        
-        
-      }
-      .dropdown:hover .dropdown-content {
+
+
+    }
+
+    .dropdown:hover .dropdown-content {
         display: block;
-      }
-      .dropdown-content a {
+    }
+
+    .dropdown-content a {
         display: block;
         color: #000000;
         padding: 5%;
         text-decoration: none;
-        
-      }
-      .dropdown-content a:hover {
+
+    }
+
+    .dropdown-content a:hover {
         color: #FFFFFF;
         background-color: #533E85;
         opacity: 0.5;
-      }
-    
-    
+    }
+
+    .sair{
+        font-size: 90%;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        left: 5%;
+        background-color: #6A478D;
+        border: 0;
+        width: 50px;
+        border-radius: 10px;
+        margin: 3%;
+    }
+
+    .sair:hover{
+        opacity: 0.8;
+        background-color: rgba(146, 67, 207, 0.26);
+    }
