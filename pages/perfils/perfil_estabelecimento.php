@@ -311,8 +311,8 @@
                     <div class="row">
 
                         <div class="col-md-6 wow animated fadeInLeft">
-                            <img alt="Client Photo" style="border-radius: 10px;" src="https://tubeledge.com/images/tecnologia/google-maps.jpg" height="345px" width="100%">
-                            <p style="margin-top: 10%;font-size: 120%;">In at accumsan risus. Nam id volutpat ante.
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.0359765274808!2d-47.172365370851715!3d-22.573720460715744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88cf9c241b1dd%3A0x3a1b0bb95fb796fa!2sR.%20Dr.%20Ademar%20de%20Barros%2C%20850%20-%20Um%2C%20Artur%20Nogueira%20-%20SP%2C%2013160-000!5e0!3m2!1spt-BR!2sbr!4v1656818312312!5m2!1spt-BR!2sbr" width="530" height="400" style="border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <p style="margin-top: 10%;font-size: 120%;text-align: justify;">In at accumsan risus. Nam id volutpat ante.
                                 Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
                                 ultricies sit amet.In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
                                 vulputate
