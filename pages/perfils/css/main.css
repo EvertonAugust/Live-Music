@@ -220,6 +220,8 @@ body {
     position: relative;
     transition: 0.5s background linear;
     background-color: #533E85;
+    display: flex;
+    align-items: center;
 }
 
 

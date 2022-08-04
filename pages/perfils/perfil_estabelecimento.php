@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--icones google -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="css/googlefonts.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style_carrossel.css">
     <!-- google font -->
     <link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet'>
@@ -102,10 +102,7 @@
                                         <div class="dropdown-content">
                                             <a style="font-size:12px ;" href="">Divulgações</a>
                                             <a style="font-size:12px ;" href="">Editar informações</a>
-                                            <br>
-
-
-                                            <a style="font-size:12px ;" href="../../index.php">Sair</a>
+                                            <a style="font-size:12px ;font-weight: 700;" href="../../index.php">Sair</a>
 
                                         </div>
                                     </div>
