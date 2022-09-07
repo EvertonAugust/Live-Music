@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!--icones google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--icones google -->
     <link href="css/googlefonts.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style_carrossel.css">
     <!-- google font -->
@@ -31,30 +32,6 @@
 </head>
 
 <body>
-
-<!-- Modal -->
-<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-              <button type="button" class="btn btn-primary">Salvar mudanças</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
 
 
     <div class="content-block" id="headerE">
@@ -307,9 +284,9 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-md-6 wow animated fadeInLeft">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.0359765274808!2d-47.172365370851715!3d-22.573720460715744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88cf9c241b1dd%3A0x3a1b0bb95fb796fa!2sR.%20Dr.%20Ademar%20de%20Barros%2C%20850%20-%20Um%2C%20Artur%20Nogueira%20-%20SP%2C%2013160-000!5e0!3m2!1spt-BR!2sbr!4v1656818312312!5m2!1spt-BR!2sbr" width="530" height="400" style="border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <p style="margin-top: 10%;font-size: 120%;text-align: justify;">In at accumsan risus. Nam id volutpat ante.
+                        <div id="map" class="col-md-6">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.0359765274808!2d-47.172365370851715!3d-22.573720460715744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88cf9c241b1dd%3A0x3a1b0bb95fb796fa!2sR.%20Dr.%20Ademar%20de%20Barros%2C%20850%20-%20Um%2C%20Artur%20Nogueira%20-%20SP%2C%2013160-000!5e0!3m2!1spt-BR!2sbr!4v1656818312312!5m2!1spt-BR!2sbr" width="100%" height="60%" style="border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <p style="font-size: larger;text-align: justify;margin:2em 0;">In at accumsan risus. Nam id volutpat ante.
                                 Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
                                 ultricies sit amet.In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
                                 vulputate
@@ -329,7 +306,7 @@
                                                 87111.
                                             </p>
                                         </div>
-                                        <div class="clearfix ">
+                                        <div class="clearfix">
                                             <div class="rotated-icon ">
                                                 <div class="sqaure-nebir "></div>
                                                 <i class="fa fa-mobile "></i>
@@ -348,7 +325,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="row">
                                 <ul class="social-box ">
                                     <li><a class="facebook-icon " href="# "><i style="color:white " class="fa fa-facebook "></i></a></li>
@@ -382,49 +359,49 @@
             </div>
         </div>
     </footer>
-    </body>
-    <!-- site-footer -->
+</body>
+<!-- site-footer -->
 
 
-    <!-- js -->
-    <script>
-        new WOW().init();
-    </script>
+<!-- js -->
+<script>
+    new WOW().init();
+</script>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.actual.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.isonscreen.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/carrossel-main.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.actual.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.isonscreen.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/carrossel-main.js"></script>
 
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    600: {
-                        items: 1,
-                    },
-                    1000: {
-                        items: 1,
-                    }
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1,
+                },
+                1000: {
+                    items: 1,
                 }
-            })
-        });
-    </script>
+            }
+        })
+    });
+</script>
 
 
 

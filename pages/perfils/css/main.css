@@ -633,7 +633,7 @@ ul.numbersList span {
 }
 
 .contact-info {
-    padding: 16px 62px;
+    padding: 10%;
     text-align: left;
     font-size: 18px;
     line-height: 36px;
@@ -862,7 +862,14 @@ i.fa.fa-envelope-o {
 
 @media (max-width: 500px) {
     .contact-info {
-        padding: 30px 10px;
+        padding: 30% 0 0 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-info {
+        padding: 50% 0 0 0;
+        font-size: 100%;
     }
 }
 
@@ -880,6 +887,7 @@ i.fa.fa-envelope-o {
         background-size: cover;
     }
 }
+
 
 :root {
     --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
