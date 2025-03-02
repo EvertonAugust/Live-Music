@@ -1,7 +1,7 @@
 # Live-Music
 
 ####  Desenvolvimento de uma aplicação web como ferramenta de divulgação para artista, eventos musicais e dirigentes de estabelecimentos.<br>
-Esta aplicação funcionará como um facilitador para que artistas e empresários se conectem e deste modo possam divulgar seus trabalhos.
+Esta aplicação funcionará como um facilitador para que artistas e empresários se conectem, e deste modo poderão divulgar seus trabalhos.
 
 ## Página Principal
 https://user-images.githubusercontent.com/85140861/189200088-9cade4a3-85cf-405d-ba28-4850380bb3dc.mp4
